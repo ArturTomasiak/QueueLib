@@ -1,7 +1,7 @@
 #include "queue.h"
 
 void enqueue(int32_t val, struct linked_list **head, struct linked_list **tail) {
-    struct linked_list *node = (struct linked_list *)malloc(sizeof(struct linked_list));
+    struct linked_list *node = malloc(sizeof(struct linked_list));
     if (!node) {
         printf("memory allocation failed");
         exit(EXIT_FAILURE);

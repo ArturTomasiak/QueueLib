@@ -1,6 +1,6 @@
 # QueueLib
 
-C queue implementation for int32_t. main.c alongside the overview of functionalities contain example usage.
+C99 queue implementation for int32_t. main.c alongside the overview of functionalities contain example usage.
 
 ---
 
